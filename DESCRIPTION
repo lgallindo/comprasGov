@@ -1,0 +1,19 @@
+Package: comprasGov
+Type: Package
+Title: Download data from the Brazilian government procurement system.
+Version: 0.1.0
+Author: Lucas Gallindo
+Maintainer: Lucas Gallindo <lgallindo@gmail.com>
+Description: Download data from the Brazilian government procurement system.
+    Currently the query building and execution are working.
+    Next steps are a Shiny or equivalent interface, and some automagic
+    data warehousing.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    openxlsx,
+    dplyr,
+    curl
+Depends: 
+    magrittr

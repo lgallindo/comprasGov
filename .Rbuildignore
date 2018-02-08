@@ -1,0 +1,6 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+
+packaging.notes.R
+^data-raw$
+^LICENSE\.md$
